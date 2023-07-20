@@ -54,7 +54,7 @@
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
     /** FOOTER **/
-    --footer-logo-padding: 91.76px 0px 125.24px 199.61px;
+    --logo-padding: 91.76px 0px 125.24px 199.61px;
     --footer-size: 1400px 249px;
     --footer-text-align: center;
     /** NAVBAR **/
@@ -132,10 +132,19 @@ body {
 
 /***** logo *****/
 
+
+/* .logo {
+    width: 161px;
+    height: var(--font-size-x-large);
+    flex-shrink: 0;
+    padding-right: 584.39px;
+} */
+
 .logo {
     width: 161px;
     height: var(--font-size-x-large);
     flex-shrink: 0;
+    padding: var(--logo-padding);
     padding-right: 584.39px;
 }
 
@@ -143,12 +152,12 @@ body {
     size: 111.83399963378906px 12.581999778747559px;
     top: 41.54400253295921px;
     left: 226.77398681640636px;
+    color: var(--color-primary);
 }
 
-.header-logo {
+.the-icon {
     width: 161px;
     height: var(--font-size-x-large);
-    flex-shrink: 0;
 }
 
 
@@ -612,24 +621,34 @@ body {
     background: var(--color-blue);
 }
 
-.footer-logo {
+.logo {
     width: 161px;
     height: var(--font-size-x-large);
     flex-shrink: 0;
+    padding: var(--logo-padding);
 }
 
-.foot-logo {
+.logo-text {
+    color: var(--color-primary);
+}
+
+.the-icon {
     width: 161px;
     height: var(--font-size-x-large);
-    flex-shrink: 0;
-    padding: var(--footer-logo-padding);
 }
 
-.socials-png {
+.socials {
+    display: flex;
     width: 130px;
     height: 30px;
     flex-shrink: 0;
     padding: 65px 200px 129px 1070px;
+}
+
+.fb,
+.twitter,
+.ig {
+    padding: 8px;
 }
 
 .copyright {

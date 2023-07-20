@@ -136,6 +136,7 @@ body {
     width: 161px;
     height: var(--font-size-x-large);
     flex-shrink: 0;
+    padding: var(--logo-padding);
     padding-right: 584.39px;
 }
 
@@ -143,12 +144,12 @@ body {
     size: 111.83399963378906px 12.581999778747559px;
     top: 41.54400253295921px;
     left: 226.77398681640636px;
+    color: var(--color-primary);
 }
 
-.header-logo {
+.the-icon {
     width: 161px;
     height: var(--font-size-x-large);
-    flex-shrink: 0;
 }
 
 
